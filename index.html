@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="color.css">
+
+  <style>
+      body {
+        margin: 0;
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .header {
+        background-color: #f1f1f1;
+        padding: 30px;
+        text-align: center;
+      }
+      
+      #navbar {
+        overflow: hidden;
+        background-color: #333;
+        opacity: 0.7;
+      }
+      
+      #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: right;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 26px;
+        opacity: 0.5;
+      }
+      
+      #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        opacity: 0.5;
+      }
+      
+      #navbar a.active {
+        background-color: rgb(48, 48, 48);
+        color: white;
+      }
+      
+      .content {
+        padding: 16px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <!-- HTML -->
+      <div id="navbar">
+        <a class="active" href="#home"><font face='helvetica bold'>Michael Eltim</a>
+        <a href="#why"><font face='calibri light'>Why</a>
+        <a href="#icon"><font face='calibri light'>The 3 Cs</a>  
+        <a href="#quote"><font face='calibri light'>Motto</a>
+        <a href=#contact><font face='calibri light'>Contact</a>
+      </div>
+
+      <!-- SCRIPT -->
+      <script>
+          window.onscroll = function() {myFunction()};
+          
+          var navbar = document.getElementById("navbar");
+          var sticky = navbar.offsetTop;
+          
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            } else {
+              navbar.classList.remove("sticky");
+            }
+          }
+          </script>
+
+
+    
+
+  <body>
+
+    <div id="head">
+        <div style="background-color:black"> </div>
+        
+    <div id="home">
+<h1>
+  <br>
+    <br>
+      <font face='calibri light' font color='white' align='left'><img src="foto/me.png" height="40%" width="40%" align="right">
+        Hey!<br>This is<br>Michael Eltim
+      </font>
+     <br>
+        <br>
+          <br>
+            <br>
+
+</h1> 
+
+
+<div id="why">
+  <br>
+    <br>
+      <br>                
+<center>
+    <font face='calibri light'>
+  <h1>Why am I here?</h1>
+    <h2>I always think that every problem is an opportunity.</h2>
+  <p>This the the major reason why im taking this intensive course,<br>as a lot of opportunites come into my perspective when i learn to code.<br> This era, is the tech era, and a handful of problems are always in our way.<br>As humans, we have to learn to solve it.<br>The most vital thing for me is to face this challenge and solve every problem<br>so that i can make this world a better place<p>
+    </font>
+  </center>
+<br>
+  <br>
+    <br>
+      <br>
+        <br>
+          <br>
+            <br>
+
+    <div id="line">
+      <!-- <h4><font face='arial' color='white'>hello</font></h4> -->
+      </div>
+
+
+
+    <div id="icon">
+        <br>
+        <br>
+          <br>
+            <br>
+              <br>
+      <h1>My 3 C's</h1>
+
+        <div id="icon1">
+            <img src="icon/creative.png"/>
+            <h3>Creative</h3>
+        </div>
+        <div class="icon2">
+            <img src="icon/confidence.png"/>
+            <h3>Confidence</h3>
+        </div>
+        <div class="icon3">
+            <img src="icon/cohesion.png"/>
+            <h3>Cohesion<h3>
+        </div>
+    </div>
+
+<br>
+  <br>
+    <br>
+
+
+    <div id="quote">
+<center>
+  <br>
+    <br>
+      <br>
+        <br>
+          <br>  
+            <br>
+        <font face='arial' color='white'>            
+      <h3>"Those who are crazy enough to think <br> they can change the world <br> are the ones who do."</h3>
+        </font>
+      <br>
+        <br>
+          <br>
+            <br>
+              <br>
+                <br>
+                  <br>
+ 
+</center>
+
+
+        
+    <div id="contact">
+      <center>
+        <font face='calibri light'>
+        Phone: 0818776702798&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: eltim2000@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram: eltim.12
+        </font>
+      </center>
+    </div>
+
+
+
+
+  </body>
+</html>
